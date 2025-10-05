@@ -19,7 +19,7 @@ Built using simple **HTML**, **CSS**, and **JavaScript**, this app runs entirely
 ## 🌿 Live Demo
 
 👉 **[Try the Personality Predictor Here!](https://jnvcodebase.github.io/friendly-tribble/)**  
-*(Replace `<yourusername>` with your actual GitHub username!)*
+
 
 ---
 
