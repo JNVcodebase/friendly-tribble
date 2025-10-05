@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personality Predictor 💫</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Personality Predictor ✨</h1>
+    <p>Answer 3 quick questions and I’ll guess your vibe 💛</p>
+
+    <form id="quizForm">
+      <div class="question">
+        <label>1️⃣ How do you usually spend your free time?</label><br>
+        <select id="q1" required>
+          <option value="">Choose one</option>
+          <option value="outdoors">Exploring nature 🌿</option>
+          <option value="creative">Drawing / music / writing 🎨</option>
+          <option value="social">Hanging out with friends 🫶</option>
+          <option value="tech">Gaming / coding 💻</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>2️⃣ What describes your mood most days?</label><br>
+        <select id="q2" required>
+          <option value="">Choose one</option>
+          <option value="calm">Peaceful & chill 🌸</option>
+          <option value="energetic">Hyped & fun ⚡</option>
+          <option value="thoughtful">Deep & introspective 🌙</option>
+          <option value="playful">Goofy & spontaneous 🌈</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>3️⃣ Choose a place you’d rather be right now:</label><br>
+        <select id="q3" required>
+          <option value="">Choose one</option>
+          <option value="mountain">In the mountains 🏔️</option>
+          <option value="city">At a rooftop café ☕</option>
+          <option value="beach">On a quiet beach 🌊</option>
+          <option value="home">Cozy at home with a blanket ☕</option>
+        </select>
+      </div>
+
+      <button type="submit">✨ Reveal My Personality ✨</button>
+    </form>
+
+    <div id="result" class="result hidden">
+      <h2>Your Personality Results 💖</h2>
+      <p id="summary"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
